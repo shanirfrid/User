@@ -1,0 +1,19 @@
+HELP.md
+server/.gradle
+server/build/
+!server/gradle/wrapper/gradle-wrapper.jar
+!server/**/src/main/**/build/
+!server/**/src/test/**/build/
+server/bin/
+!server/**/src/main/**/bin/
+!server/**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+server/.idea/*
+
+
+### VS Code ###
+client/.vscode/*
+client/node_modules/*
+client/.prettierrc
+client/package-lock.json
